@@ -5,18 +5,24 @@ export default function Projects() {
       description:
         "Responsive e-commerce UI with product listing, search, cart, and checkout.",
       tech: ["React", "Tailwind", "JavaScript"],
+      liveUrl: "https://cartlyecommerce.netlify.app/",
+      githubUrl: "https://github.com/ahamedrahman2000/cartly",
     },
     {
       name: "Admin Panel Dashboard",
       description:
         "Admin dashboard for managing users, analytics, and roles.",
       tech: ["React", "Tailwind", "Hooks"],
+      liveUrl: "https://cartlyecommerce.netlify.app/",
+      githubUrl: "https://github.com/ahamedrahman2000/cartly",
     },
     {
       name: "Portfolio Website",
       description:
         "Personal portfolio to showcase skills, projects, and resume.",
       tech: ["React", "Tailwind"],
+      liveUrl: "https://rahmandevportfolio.netlify.app/",
+      githubUrl: "https://github.com/ahamedrahman2000/rahmanDevPortfolio",
     },
     {
       name: "Product Dashboard",
@@ -48,7 +54,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white border rounded-lg p-6 flex flex-col hover:shadow-lg transition"
+            className="bg-white border rounded-xl p-6 flex flex-col hover:shadow-xl transition"
           >
             <h3 className="text-xl font-semibold mb-3">
               {project.name}
@@ -70,13 +76,27 @@ export default function Projects() {
             </div>
 
             <div className="mt-auto flex gap-3">
-              <button className="flex-1 border border-blue-600 text-blue-600 py-2 rounded hover:bg-blue-600 hover:text-white transition">
-                Live Demo
-              </button>
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center border border-blue-600 text-blue-600 py-2 rounded hover:bg-blue-600 hover:text-white transition"
+                >
+                  Live Demo
+                </a>
+              )}
 
-              <button className="flex-1 border border-gray-700 text-gray-700 py-2 rounded hover:bg-gray-700 hover:text-white transition">
-                GitHub
-              </button>
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center border border-gray-700 text-gray-700 py-2 rounded hover:bg-gray-700 hover:text-white transition"
+                >
+                  GitHub
+                </a>
+              )}
             </div>
           </div>
         ))}
