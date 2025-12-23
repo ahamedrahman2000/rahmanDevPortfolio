@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="flex gap-5 text-xl">
           <a
             href="https://github.com/your-github-username"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             className="hover:text-white transition"
           >
             <FaGithub />
@@ -26,7 +26,7 @@ export default function Footer() {
 
           <a
             href="https://linkedin.com/in/abdul-rahman-474b19312"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             className="hover:text-white transition"
           >
             <FaLinkedin />

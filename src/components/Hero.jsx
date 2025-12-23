@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+ 
 import user from "../assets/images/userAr.jpg";
 
 export default function Hero() {

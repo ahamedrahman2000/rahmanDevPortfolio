@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+ 
 import user from "../assets/images/userAr.jpg";
 import Certification from "../pages/Certifications";
 import ProjectsUI from "../pages/ProjectsUI";

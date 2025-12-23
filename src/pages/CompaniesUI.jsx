@@ -7,18 +7,22 @@ const cImages = [
   {
     id: 1,
     img: lumos,
+    name: "lumos",
   },
   {
     id: 2,
     img: techm,
+    name: "techm",
   },
   {
     id: 3,
     img: indusind,
+    name: "indusind",
   },
   {
     id: 4,
     img: onepone,
+    name: "onepone",
   },
 ];
 
@@ -34,10 +38,11 @@ export default function CompaniesUI() {
               key={index}
               className="text-sm px-3 py-1 hover:scale-150 duration-300  text-gray-700 rounded-lg"
             >
-               <img
-              src={company.img} 
-              className="w-full h-18 object-contain rounded-lg"
-            />
+              <img
+                src={company.img}
+                alt={company.name}
+                className="w-full h-18 object-contain rounded-lg"
+              />
             </span>
           ))}
         </div>

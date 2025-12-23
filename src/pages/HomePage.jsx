@@ -1,5 +1,4 @@
-import AboutMe from "../components/About";
-import Certifications from "./Certifications";
+import AboutMe from "../components/About"; 
 import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import Footer from "../components/Footer";

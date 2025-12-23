@@ -29,7 +29,7 @@ export default function Contact() {
 
           <a
             href="https://github.com/ahamedrahman2000"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             className="group flex items-center gap-4 bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <FaGithub className="text-gray-800 text-2xl" />
@@ -40,7 +40,7 @@ export default function Contact() {
 
           <a
             href="https://www.linkedin.com/in/abdul-rahman-20ar0031"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             className="group flex items-center gap-4 bg-white p-5 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <FaLinkedin className="text-blue-700 text-2xl" />
