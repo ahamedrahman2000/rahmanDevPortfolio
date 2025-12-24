@@ -13,15 +13,15 @@ export default function Projects() {
       description:
         "Admin dashboard for managing users, analytics, and roles.",
       tech: ["React", "Tailwind", "Hooks"],
-      liveUrl: "https://cartlyecommerce.netlify.app/",
-      githubUrl: "https://github.com/ahamedrahman2000/cartly",
+      liveUrl: "https://adminpaneladashboard.netlify.app/",
+      githubUrl: "https://github.com/ahamedrahman2000/AdminDashboard",
     },
     {
       name: "Portfolio Website",
       description:
         "Personal portfolio to showcase skills, projects, and resume.",
       tech: ["React", "Tailwind"],
-      liveUrl: "https://rahmandevportfolio.netlify.app/",
+      liveUrl: "https://rahmandev.netlify.app/",
       githubUrl: "https://github.com/ahamedrahman2000/rahmanDevPortfolio",
     },
     {
