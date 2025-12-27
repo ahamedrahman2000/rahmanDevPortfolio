@@ -13,8 +13,8 @@ export default function Projects() {
       description:
         "Admin dashboard for managing users, analytics, and roles.",
       tech: ["React", "Tailwind", "Hooks"],
-      liveUrl: "https://adminpaneladashboard.netlify.app/",
-      githubUrl: "https://github.com/ahamedrahman2000/AdminDashboard",
+      liveUrl: "https://admindashboarde.netlify.app/",
+      githubUrl: "https://github.com/ahamedrahman2000/EadminDashboard",
     },
     {
       name: "Portfolio Website",
